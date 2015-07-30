@@ -329,30 +329,31 @@
 <!-- Main Wrapper -->
 <div id="wrapper">
 
-<div class="normalheader transition animated fadeIn">
-    <div class="hpanel">
-        <div class="panel-body">
+<div class="normalheader transition animated fadeIn" dir="rtl">
+    <div class="hpanel" dir="rtl">
+        <div class="panel-body" dir="rtl">
             <a class="small-header-action" href="#">
                 <div class="clip-header">
                     <i class="fa fa-arrow-up"></i>
                 </div>
             </a>
 
-            <div id="hbreadcrumb" class="pull-right m-t-lg">
-                <ol class="hbreadcrumb breadcrumb">
-                    <li><a href="index-2.html">Dashboard</a></li>
-                    <li>
-                        <span>App views</span>
-                    </li>
-                    <li class="active">
-                        <span>Invoice</span>
-                    </li>
-                </ol>
+           <div class="col-md-4" style=" padding-top:5%;">
+            <div class="col-md-4" style=" width: auto; vertical-align: bottom;">  الصفحة الرئيسية / فاتورة بيع </div>
+           </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4"> <h2> فاتورة بيع</h2> </div>
+
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-1"></div>
+
+            <div class="col-md-4" style="text-align: right">
+            <h5> اسم المتجر </h5>
             </div>
-            <h2 class="font-light m-b-xs">
-                Invoice
-            </h2>
-            <small>Clean invoice template.</small>
+
         </div>
     </div>
 </div>
@@ -369,14 +370,15 @@
 
 <div class="row"  style="padding-right:130px;padding-left:130px">
 
-                   <div class="row" dir="rtl" >
-                       <div style="float: right;   font-size: 16px; width: 200px;">
-                           <div> رقم الفاتورة :   sdfgdfg</div>
-                       <div> نوع الفاتور:   فاتورة بيع sfdgsd</div >
-                       <div> تاريخ اصدار الفاتورة :     dfgdfgasdf</div>
+                   <div class="row" dir="rtl" style="font-size:16px;" >
+                       <div class="col-md-4" >
+                           <div> رقم الفاتورة :   </div>
+                       <div> نوع الفاتور:   فاتورة بيع </div >
+                       <div> تاريخ اصدار الفاتورة :     </div>
 
                        </div>
-                       <div style="float: left; font-size: 16px; width: 130px; margin-left:70px" >
+                       <div class="col-md-4"></div>
+                       <div class="col-md-4" >
                            <div>  عدد السلع : </div>
                            <div> المبلغ الاجمالي : </div>
                            <div>وقت اصدار الفاتورة :   </div>
@@ -392,7 +394,7 @@
                         <div dir="rtl">
                             <table class="table table-bordered table-striped" dir="rtl">
                                 <thead style="text-align: center">
-                                <tr style="">
+                                <tr style="font-size:18px;" >
                                     <th style="text-align: center; width: 50px">الرقم</th>
                                     <th style="text-align: center; width: 300px">اسم المنتج </th>
                                     <th style="text-align: center; width: 100px">الكمية </th>
@@ -438,7 +440,7 @@
 
                                 </tbody>
                                 <tfoot>
-                                <tr>
+                                <tr style="font-size:18px;">
                                     <td colspan="3" style="text-align: center">  السعر الاجمالي </td>
                                     <td style="text-align: center">500</td>
                                 </tr>
@@ -447,15 +449,17 @@
                         </div>
 
                     </div>
-                    <div class="row" style="float: right;width: 104%;">
+                    <div class="row" style="float: right;width: 104%; font-size:16px;">
                        <p style="float: right"> : ملاحظات </p>
                         <div class="row" style="width: 100%; margin-left:1px; ">
                        <textarea style="height: 100px;width:100%;  "></textarea>
                         </div>
                     </div>
-                    <div class="row" style=" width:100%;  alignment: center;  background-color: aqua; float: right" >
-                        <div style="alignment:center; position: fixed; right:50%; height:100px" >
-                        <input name="Save" type="submit"  value="Save" class="btn btn-info btn-sm" >
+                    <div class="row"  style="">
+                        <div class="col-lg-4"></div>
+                        <div class="col-md-1"></div>
+                        <div class="col-lg-4"  style="padding-top: 2%;">
+                        <input name="Save" type="submit"  value="Save" class="btn btn-info btn-sm" width="30px" >
                         <input name="Cancel" type="button"  value="Cancel" class="btn btn-danger btn-sm">
                         </div>
                     </div>
