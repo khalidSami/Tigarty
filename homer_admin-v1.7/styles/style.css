@@ -1513,18 +1513,21 @@ body {
 
   position: relative;
   border-bottom: 1px solid #e4e5e7;
+  direction: rtl;
 }
 #menu {
   width: 180px;
   bottom: 0;
-  float: left;
-  left:0;
+
+  float: right;
+  right: 0;
+
   position: absolute;
   top: 62px;
   transition: all 0.4s ease 0s;
 }
 #wrapper {
-  margin: 0 0px 0 180px;
+  margin: 0px 180px 0 0px;
   padding: 0;
   background: #f1f3f6;
   border-left: 1px solid #e4e5e7;
@@ -2150,7 +2153,7 @@ body {
 }
 /* Slider */
 #logo {
-  float: left;
+  float: right;
   width: 180px;
   background-color: #34495e;
   padding: 18px 10px 18px 18px;
@@ -2265,10 +2268,10 @@ body {
 .header-link {
   padding: 18px 26px 17px 26px;
   font-size: 14px;
-  float: left;
+  float: right;
   border-right: 1px solid #e4e5e7;
   border-left: 1px solid #e4e5e7;
-  margin-right: 15px;
+  margin-right: 0px;
   background: #f7f9fa;
   cursor: pointer;
 }
@@ -2332,22 +2335,22 @@ body {
 }
 /* Sidebar Hide */
 body.hide-sidebar #menu {
-  margin-left: -180px;
+  margin-right: -180px;
 }
 body.hide-sidebar #wrapper {
-  margin-left: 0;
+  margin-right: 0;
 }
 body.page-small #menu {
-  margin-left: -180px;
+  margin-right: -180px;
 }
 body.page-small #wrapper {
-  margin-left: 0;
+  margin-right: 0;
 }
 body.page-small.show-sidebar #menu {
-  margin-left: 0;
+  margin-right: 0;
 }
 body.page-small.show-sidebar #wrapper {
-  margin-left: 180px;
+  margin-right: 180px;
 }
 a {
   cursor: pointer;
@@ -2371,9 +2374,9 @@ a:focus {
   background: transparent !important;
 }
 .navbar-form-custom {
-  float: left;
+  float: right;
   height: 52px;
-  padding: 0;
+  padding-right:1%;
   width: 200px;
 }
 .navbar-form-custom .form-control {
